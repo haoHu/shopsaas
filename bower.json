@@ -1,0 +1,14 @@
+{
+	"name" : "HualalaSAAS",
+	"private" : true,
+	"dependencies" : {
+		"requirejs" : "~2.1.15",
+		"bootstrap" : "~3.2.0"
+	},
+	"devDependencies" : {
+		"jquery" : "~2.1",
+		"underscore" : "~1.8.2",
+		"handlebars" : "~3.0.0",
+		"stapes" : "~0.8.1"
+	}
+}
