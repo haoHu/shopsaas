@@ -240,6 +240,29 @@ module.exports = function (grunt) {
 							include : ["Bootstrap", "Handlebars", "underscore", "stapes", "IX"],
 							exclude : ["config"]
 						},
+						// common files 打包工程的公共文件
+						{
+							name : "common",
+							include : [
+								"common/datatype",
+								"common/typedef",
+								"common/ajaxEngine",
+								"common/commonFn",
+								"common/router",
+								"api/global-const",
+								"api/global-url",
+								"api/global-callserver-common",
+								"route/pageroute"
+							],
+							exclude : ["config", "vendor"]
+						},
+						// pymatch
+						{
+							name : "pymatch/matcher",
+							include : [
+								"pymatch/pymatch"
+							]
+						},
 						// 模块打包
 						{
 							name : "app/page1/control1",

@@ -9,6 +9,7 @@
 		"jquery" : "~2.1",
 		"underscore" : "~1.8.2",
 		"handlebars" : "~3.0.0",
-		"stapes" : "~0.8.1"
+		"stapes" : "~0.8.1",
+		"requirejs-text" : "~2.0.14"
 	}
 }

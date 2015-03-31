@@ -27,6 +27,9 @@ require.config({
 		'Bootstrap' : {
 			exports : 'bs',
 			deps : ['jquery']
+		},
+		'IX' : {
+			exports : 'IX'
 		}
 	}
 })
