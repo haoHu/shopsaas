@@ -25,4 +25,4 @@ require.config({
 			exports : 'IX'
 		}
 	}
-})
+});
